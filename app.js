@@ -6,3 +6,10 @@ console.log(idElement);
 
 console.log(document.getElementsByTagName("div"));
 var tagElement = document.getElementsByTagName("div");
+
+//chaanging the html elements
+console.log(idElement.innerHTML);
+idElement.innerHTML = "I have been changed";
+
+console.log(classElements[1]);
+classElements[1].innerHTML = "I have been changed by className and array locaarion";
